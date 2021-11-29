@@ -1149,6 +1149,11 @@ p {
     color: #e23e38;
     text-transform: uppercase;
 }
+
+.vbox-content img{
+    width: 60% !important;
+    height: 500px;
+}
 /*=================================
         Footer Part End
 =================================*/
