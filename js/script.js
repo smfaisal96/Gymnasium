@@ -1,5 +1,40 @@
 $(function(){
     'use strict';
+  /*Menu Fix*/
+    var navOff = $('.main-menu').offset().top;
+
+    $(window).on('scroll', function(){
+      var scrolling =  $(this).scrollTop();
+
+        if(scrolling > navOff){
+            $('.main-menu').addClass('menu_fix');
+        }
+
+        else{
+            $('.main-menu').removeClass('menu_fix');
+        }
+
+    });
+
+     // Back to Top Button
+     $('.bck_to_top').on('click', function(){
+      $('html, body').animate({
+          scrollTop: 0,
+      }, 1500);
+  });
+
+
+  $(window).on('scroll', function(){
+      var abc =  $(this).scrollTop();
+
+      if(abc > 150){
+          $('.bck_to_top').fadeIn();
+      }
+
+      else{
+          $('.bck_to_top').fadeOut();
+      }
+  });
 
     /*Banner Part Start*/
     $('#banner').slick({

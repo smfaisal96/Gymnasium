@@ -1,4 +1,5 @@
 @media (min-width: 1400px) {
+
     /* Banner Part Start */
     .banner-item .banner-text h2::before {
         left: -30px;
@@ -24,15 +25,23 @@
         right: -21px;
         width: 49px;
     }
+
     /* Banner Part End */
     /* Partner Part Start */
     .partner .nxt_arr {
         right: 0;
     }
+
     /* Partner Part End */
+
+    .vbox-content img {
+        width: 80% !important;
+        height: 500px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+
     /* Banner Part Start */
     .banner-item .banner-text h2::before {
         left: -20px;
@@ -57,31 +66,42 @@
     .banner-item .banner-text p::after {
         width: 53px;
     }
+
     /* Banner Part End */
-    
+
     /* Partner Part Start */
     .partner .nxt_arr {
         right: 0;
     }
+
     /* Partner Part End */
+
+    .vbox-content img {
+        width: 80% !important;
+        height: 450px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
     /* partner Part Start */
     .main-menu .navbar-brand {
         width: 230px;
     }
+
     /* partner Part End */
     /* Classes Part Start */
     .class-rutine li {
         width: 19.56%;
     }
+
     /* Classes Part End */
-    
+
     /* partner Part Start */
     .partner .nxt_arr {
         right: 0;
     }
+
     /* partner Part End */
 
     /* Footer Part Start */
@@ -92,10 +112,17 @@
     .foot-photo ul li {
         width: 22.57%;
     }
+
     /* Footer Part End */
+
+    .vbox-content img {
+        width: 70% !important;
+        height: 450px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
     /* Menu Part Start */
     .main-menu .navbar-brand {
         width: 200px;
@@ -106,6 +133,7 @@
     .main-menu .mb-2 {
         margin-bottom: 0 !important;
     }
+
     /* Menu Part End */
 
     /* Banner Part Start */
@@ -132,6 +160,7 @@
     .banner-item .banner-text p::after {
         right: -29px;
     }
+
     /* Banner Part End */
 
     /* Membership Part Start */
@@ -141,8 +170,7 @@
 
     .member-card .img,
     .member-card .img1,
-    .member-card .img2
-     {
+    .member-card .img2 {
         padding: 30px 0;
     }
 
@@ -165,6 +193,7 @@
     .member-card a {
         font-size: 14px;
     }
+
     /* Membership Part End */
 
     /* Classes Part Start */
@@ -180,18 +209,26 @@
     .class-rutine li i {
         font-size: 45px;
     }
+
     /* Classes Part End */
 
     /* Partner Part Start */
     .partner .nxt_arr {
         right: 0;
     }
+
     /* Partner Part End */
+
+    .vbox-content img {
+        width: 80% !important;
+        height: 450px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-       /* Menu Part Start */
-       .main-menu {
+
+    /* Menu Part Start */
+    .main-menu {
         background-color: #e23e38;
         height: 50px;
         top: 0;
@@ -429,7 +466,7 @@
     }
 
     /* Membership Part End */
-    
+
     /* Countdown Part Start */
     #countdown::after {
         background: rgba(0, 0, 0, 0.8);
@@ -447,6 +484,7 @@
     .count-text p {
         font-size: 14px;
     }
+
     /* Countdown Part End */
 
     /* Classes Part Start */
@@ -470,16 +508,16 @@
         padding: 10px 0px;
     }
 
-    .class-rutine li:nth-child(even){
+    .class-rutine li:nth-child(even) {
         margin-right: 0;
     }
 
-    .class-rutine li:nth-child(5){
+    .class-rutine li:nth-child(5) {
         margin-right: 5px;
     }
 
     .class-rutine li:nth-child(9),
-    .class-rutine li:nth-child(10){
+    .class-rutine li:nth-child(10) {
         margin-bottom: 0;
     }
 
@@ -490,6 +528,7 @@
     .class-rutine li i {
         font-size: 40px;
     }
+
     /* Classes Part End */
 
     /* Partner Part Start */
@@ -515,7 +554,7 @@
         padding-top: 0px;
     }
 
-    .footer-text h4{
+    .footer-text h4 {
         padding: 30px 0;
         text-align: center;
     }
@@ -523,6 +562,28 @@
     .social i {
         font-size: 14px;
         padding: 8px;
+    }
+
+    /* Back TO Top Part Start*/
+    .bck_to_top {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 20px;
+        border-radius: 20px 0;
+        right: 20px;
+        bottom: 20px;
+        -webkit-border-radius: 20px 0;
+        -moz-border-radius: 20px 0;
+        -ms-border-radius: 20px 0;
+        -o-border-radius: 20px 0;
+    }
+
+    /* Back TO Top Part End*/
+
+    .vbox-content img {
+        width: 80% !important;
+        height: 450px;
     }
 }
 
@@ -767,7 +828,7 @@
     }
 
     /* Membership Part End */
-    
+
     /* Countdown Part Start */
     #countdown::after {
         background: rgba(0, 0, 0, 0.4);
@@ -785,6 +846,7 @@
     .count-text p {
         font-size: 13px;
     }
+
     /* Countdown Part End */
 
     /* Classes Part Start */
@@ -808,16 +870,16 @@
         padding: 10px 0px;
     }
 
-    .class-rutine li:nth-child(even){
+    .class-rutine li:nth-child(even) {
         margin-right: 0;
     }
 
-    .class-rutine li:nth-child(5){
+    .class-rutine li:nth-child(5) {
         margin-right: 5px;
     }
 
     .class-rutine li:nth-child(9),
-    .class-rutine li:nth-child(10){
+    .class-rutine li:nth-child(10) {
         margin-bottom: 0;
     }
 
@@ -828,6 +890,7 @@
     .class-rutine li i {
         font-size: 40px;
     }
+
     /* Classes Part End */
 
     /* Partner Part Start */
@@ -853,14 +916,37 @@
         padding-top: 0px;
     }
 
-    .footer-text h4{
+    .footer-text h4 {
         padding: 30px 0;
         text-align: center;
     }
 
-    .social{
+    .social {
         text-align: center;
         padding-bottom: 30px;
     }
+
     /* Footer Part End */
+
+    /* Back TO Top Part Start*/
+    .bck_to_top {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 20px;
+        border-radius: 20px 0;
+        right: 20px;
+        bottom: 20px;
+        -webkit-border-radius: 20px 0;
+        -moz-border-radius: 20px 0;
+        -ms-border-radius: 20px 0;
+        -o-border-radius: 20px 0;
+    }
+
+    /* Back TO Top Part End*/
+
+    .vbox-content img {
+        width: 90% !important;
+        height: 350px;
+    }
 }
